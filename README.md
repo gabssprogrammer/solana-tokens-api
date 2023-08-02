@@ -1,5 +1,5 @@
 # solana-tokens-api
-![Project Logo/Thumbnail](https://cryptologos.cc/logos/solana-sol-logo.png)
+![Project Logo/Thumbnail](https://altcoinsbox.com/wp-content/uploads/2023/01/full-solana-logo.webp)
 ## Description
 solana-tokens-api is an API that allows you to check if the POLIS DAO token exists in a given Solana address. To use this API, you need to set up the server using Express, which will run locally on localhost. An example endpoint for checking the token is provided at `localhost:3000/gabsAPI/solanaAddress`. The API utilizes Axios, so make sure to install it by running `npm install axios` before using the API. Enjoy! ;)
 
