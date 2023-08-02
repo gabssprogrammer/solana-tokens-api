@@ -47,26 +47,27 @@ app.listen(3000, () => {
 });
 ```
 //
+```
 Run the project: npm start
 API Endpoint
 To check if the POLIS DAO token exists at a specific Solana address, make a GET request to the following endpoint:
 
 bash
-Copy code
+```
 http://localhost:3000/gabsAPI/solanaAddress
 Replace solanaAddress in the endpoint with the actual Solana address you want to check.
 
 The API will return a JSON response with the exists field, indicating whether the token exists or not.
 
-Dependencies
+#Dependencies
 Express
 Axios
 Make sure to install these dependencies using npm install before running the API.
 
-Contributing
+#Contributing
 If you would like to contribute to this project, please follow these steps:
 
-Fork the repository.
+#Fork the repository.
 Create a new branch: git checkout -b new_feature
 Make changes and commit: git commit -m "Add new_feature"
 Push to the branch: git push origin new_feature
