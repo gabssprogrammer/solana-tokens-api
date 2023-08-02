@@ -45,6 +45,8 @@ app.get('/gabsAPI/:solanaAddress', async (req, res) => {
 app.listen(3000, () => {
   console.log('Server started at http://localhost:3000/');
 });
+```
+//
 Run the project: npm start
 API Endpoint
 To check if the POLIS DAO token exists at a specific Solana address, make a GET request to the following endpoint:
